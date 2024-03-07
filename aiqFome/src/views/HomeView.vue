@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import DetailView from './DetailView.vue'
+</script>
 
 <template>
-  <main>
-    <p>Oi</p>
-  </main>
+  <DetailView />
 </template>

@@ -1,4 +1,4 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body,
 div,
 span,
@@ -102,6 +102,8 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Nunito', sans-serif !important;
+  background-color: rgb(235, 235, 235) !important;
 }
 ol,
 ul {
