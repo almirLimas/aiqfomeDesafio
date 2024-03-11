@@ -42,6 +42,12 @@ const store = useCounterStore()
   font-size: 1.1rem;
 }
 
+@media (max-width: 1394px) {
+  .icon_input {
+    right: 26rem;
+  }
+}
+
 @media (max-width: 992px) {
   .buttonTicket {
     display: none;
@@ -51,6 +57,11 @@ const store = useCounterStore()
   }
   .searchInput {
     display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .icon_input {
+    right: 21rem;
   }
 }
 </style>
